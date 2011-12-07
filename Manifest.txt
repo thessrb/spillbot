@@ -1,0 +1,6 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/spillbot.rb
+test/test_spillbot.rb
