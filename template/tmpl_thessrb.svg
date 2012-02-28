@@ -741,7 +741,7 @@
            y="648.79578"
            x="106.79258"
            id="tspan3430-3"
-           sodipodi:role="line">talk_day</tspan></text>
+           sodipodi:role="line"><%=meetup["day"]%></tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text3428-3-1"
@@ -753,7 +753,7 @@
            y="635.2251"
            x="465.09711"
            id="tspan3430-3-4"
-           sodipodi:role="line">/talk_month</tspan></text>
+           sodipodi:role="line">/<%=meetup["month"]%></tspan></text>
     </g>
     <text
        sodipodi:linespacing="125%"
@@ -787,12 +787,12 @@
            y="475.56882"
            x="246.51093"
            id="tspan3567"
-           sodipodi:role="line">talk_topic</tspan><tspan
+           sodipodi:role="line"><%=meetup["talk"]["title"]%></tspan><tspan
            style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Orbitron;-inkscape-font-specification:Orbitron"
            id="tspan3583"
            y="500.56882"
            x="246.51093"
-           sodipodi:role="line">talk_time</tspan></text>
+           sodipodi:role="line"><%=meetup["talk"]["time_from"]%> - <%=meetup["talk"]["time_to"]%></tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text4379"
@@ -803,7 +803,7 @@
            id="tspan4395"
            y="524.64789"
            x="245.82143"
-           sodipodi:role="line">by talk_speaker</tspan></text>
+           sodipodi:role="line">by <%=meetup["talk"]["speaker"]%></tspan></text>
       <text
          sodipodi:linespacing="125%"
          id="text4417"
