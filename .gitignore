@@ -3,3 +3,4 @@ pkg/
 coverage/
 coverage.info
 doc/
+lib/spillbot/poster.svg
